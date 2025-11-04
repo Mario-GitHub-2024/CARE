@@ -1,7 +1,21 @@
+# Project Dependencies for Churn Prediction Project
+# This file lists all required libraries to run the churn prediction project
+
+# Core Data Science Libraries
 pandas
 numpy
 scikit-learn
 xgboost
-catboost
-hyperopt
 matplotlib
+
+# Hyperparameter Optimization
+hyperopt
+
+# Optional (Currently Excluded)
+# catboost: Gradient boosting library (excluded due to Python 3.14 compatibility issues)
+
+# Installation Notes:
+# - Install with: pip install -r requirements.txt
+# - For systems with PEP 668 protection: pip install --break-system-packages -r requirements.txt
+# - Python 3.14 compatible (current environment)
+# - All dependencies except CatBoost have been verified to work correctly
